@@ -1,5 +1,5 @@
 .navbar {
-  background-color: darkblue;
+  background-color: darkgoldenrod;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -139,6 +139,6 @@
     width: 2rem;
     height: 2rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: lightgrey;
   }
 }
