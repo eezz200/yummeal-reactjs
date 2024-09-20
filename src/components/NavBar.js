@@ -44,6 +44,29 @@ function NavBar() {
             </li>
             <li className="nav-item">
             </li>
+            <div class="container">
+              <h3>DON'T YOU WANT TO ORDER?</h3>
+              <form>
+
+    <div className="bawah">
+    <label for="password"></label>
+    <input type="password" id="password" name="password" placeholder="Password" required>
+    <label for="ulangi_password"></label>
+    <input type="password" id="ulangi_password" name="ulangi_password" placeholder="Ulangi Password" required>
+    </div>
+    
+    <div class="checkbox">
+      <input type="checkbox" id="syarat" name="syarat" required>
+      <label for="syarat">Saya setuju dengan Syarat dan Ketentuan.</label>
+    </div>
+
+    <button type="submit">Daftar</button>
+    <hr>
+    <button class="login-google" type="button">Login Menggunakan Google</button>
+  </form>
+  <div class="footer">
+    Temukan kesalahan atau bug? Laporkan di sini.
+  </div>
           </ul>
         </div>
       </nav>
